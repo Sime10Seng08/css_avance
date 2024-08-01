@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif;
+    color: grey;
+    width: 80%; /* Ou une largeur fixe comme 960px */
+    margin: 0 auto; /* Centre horizontalement */
+    padding: 20px; /* Optionnel : ajoute un peu d'espace autour du contenu */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+    
+}
+
+.a{
+    color: grey;
+    text-decoration: none;
+}
+
+.active{
+    color:#00b39b;
+}
+
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px; 
+}
+.logo{
+    width: 1em;
+    height: auto;
+}
+.log{
+    width: 3em;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+.debut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px 0;
+}
+.intro-log{
+    width: 50px;
+    height: 50px;
+    /* background-color: #00b39b;   */
+}
+.introdction-titre{
+    color: #00b39b;
+}
+.intro-para{
+    display: flex;
+}
+.intro-text{
+    display: flex;
+
+}
+.services {
+    display: flex;
+}
+.service-card{
+    padding: 20px;
+    border-radius: 8px ;
+    color: white;
+    margin: 10px;
+}
+
+.service-card-patient{
+    background-color: #00b39b;
+}
+
+.service-card-doctor{
+    background-color: rgb(96, 96, 173);
+}
+.service-card-clinic{
+  background-color:#00b39b;
+}
+
+.int{
+    text-align: center;
+}
+
+.pa{
+    text-align: center;
+}
+.aligne-tof{
+   
+    justify-content: center;
+   padding: 20px; 
+}
+/* section global */
+
+
+.leader{
+    margin: 10;
+    padding: auto;
+    justify-content: center;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+    
+}
+
